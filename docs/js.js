@@ -9,7 +9,6 @@
     }
 
     function writeLyric(index) {
-        console.log(lyric[index]);
         document.getElementById('first').innerText = lyric[index];
     }
 })();
